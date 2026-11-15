@@ -19,7 +19,7 @@ import { AdminSettingsPage } from './pages/admin/AdminSettingsPage';
 
 export const App: React.FC = () => {
   return (
-    <BrowserRouter basename="/antreyuk">
+    <BrowserRouter basename="/AntreYuk">
       <Routes>
         {/* Customer Public Routes */}
         <Route element={<CustomerLayout />}>
